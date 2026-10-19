@@ -1,0 +1,34 @@
+import './assets/css/styles.css'
+import './assets/css/bootstrap.css'
+import Header from './components/Header/Header'
+import Alert from './components/Alert'
+import Section1 from './components/Section1'
+import Section2 from './components/Section2'
+import Section3 from './components/Section3'
+import Section4 from './components/Section4'
+import Section5 from './components/Section5'
+import Section6 from './components/Section6'
+import Footer from './components/Footer/Footer'
+import './App.css'
+
+
+
+function App() {
+  return (
+    <>
+      <Header />
+      <Alert />
+      <main>
+        <Section1 />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+        <Section5 />
+        <Section6 />
+      </main>
+      <Footer />
+    </>
+  )
+}
+
+export default App
